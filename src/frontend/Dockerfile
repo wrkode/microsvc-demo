@@ -41,3 +41,4 @@ ENV GOTRACEBACK=single
 
 EXPOSE 8080
 ENTRYPOINT ["/src/server"]
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

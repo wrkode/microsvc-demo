@@ -40,3 +40,4 @@ COPY --from=builder /app .
 
 EXPOSE 9555
 ENTRYPOINT ["/app/build/install/hipstershop/bin/AdService"]
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

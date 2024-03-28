@@ -41,3 +41,4 @@ COPY . .
 
 EXPOSE 8080
 ENTRYPOINT [ "python", "email_server.py" ]
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

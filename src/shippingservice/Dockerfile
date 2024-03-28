@@ -40,3 +40,4 @@ ENV GOTRACEBACK=single
 
 EXPOSE 50051
 ENTRYPOINT ["/src/shippingservice"]
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

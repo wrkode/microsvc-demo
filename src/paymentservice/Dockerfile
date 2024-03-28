@@ -40,3 +40,4 @@ COPY . .
 EXPOSE 50051
 
 ENTRYPOINT [ "node", "index.js" ]
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

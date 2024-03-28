@@ -43,3 +43,4 @@ ENV PORT "8080"
 EXPOSE 8080
 
 ENTRYPOINT ["python", "recommendation_server.py"]
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

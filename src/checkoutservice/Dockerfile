@@ -40,3 +40,4 @@ ENV GOTRACEBACK=single
 
 EXPOSE 5050
 ENTRYPOINT ["/src/checkoutservice"]
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

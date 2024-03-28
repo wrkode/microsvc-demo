@@ -33,3 +33,4 @@ COPY locustfile.py .
 ENV GEVENT_SUPPORT=True
 
 ENTRYPOINT locust --host="http://${FRONTEND_ADDR}" --headless -u "${USERS:-10}" 2>&1
+LABEL org.opencontainers.image.source https://github.com/wrkode/microsvc-demo

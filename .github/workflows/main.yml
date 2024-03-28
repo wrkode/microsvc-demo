@@ -1,0 +1,14 @@
+- name: Remove package versions from GitHub Packages
+  # You may pin to the exact commit or the version.
+  # uses: EpitomeGlobal/remove-package-versions@ed35efcb81d750ae25ae832aeffeb9789fa780db
+  uses: EpitomeGlobal/remove-package-versions@1.0
+    with:
+      # Number of versions to keep
+      keep-versions: # default is 5
+      # Whether or not to remove semver versions
+      remove-semver: # default is false
+    # Number of prerelease versions to keep
+      keep-prerelease-versions: # default is 5
+     # Whether or not to remove semver of prerelease versions
+      remove-prerelease-semver: # default is false
+          
